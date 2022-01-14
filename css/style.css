@@ -1,0 +1,64 @@
+/* CSS Reset */
+* 
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.contentWrapper{
+    margin: 0 auto;
+    max-width: 960px;
+    background-color: lightgray;
+}
+
+img.identity
+{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.sectionTitle
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.socialWrapper, form
+{
+    margin: 10px auto 0 auto;
+    width: fit-content;
+}
+
+.fab, .fas
+{
+    margin: 5px;
+    font-size: 3em;
+}
+
+table
+{
+    width: fit-content;
+    display: block;
+    margin: 5px auto;
+}
+td
+{
+    padding-right: 10px;
+}
+tr:first-child
+{
+    font-weight: bold;
+}
+
+.projectsContainer > p
+{
+    text-align: center;
+}
+
+form
+{
+    display: block;
+}

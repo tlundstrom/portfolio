@@ -8,7 +8,68 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <h1>Thomas Lundstrom</h1>
-    <img src="img/profile.jpg" alt="Profile Photo">
+    <div class="contentWrapper">
+        <div class="identityContainer">
+            <img class="identity" id="profilePic"src="img/profile.jpg" alt="Profile Photo">
+            <h1 class="sectionTitle">Thomas Lundstrom</h1>
+        </div>
+        <div class="socialWrapper">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fas fa-envelope"></i>
+        </div>
+        <div class="techContainer">
+            <h2 class="sectionTitle">Technologies</h2>
+            <table>
+                <tr>
+                    <td>Front End</td>
+                    <td>PHP</td>
+                    <td>JavaScript</td>
+                    <td>Database</td>
+                    <td>Concepts</td>
+                </tr>
+                <tr>
+                    <td>HTML5</td>
+                    <td>WordPress</td>
+                    <td>D3.js</td>
+                    <td>MySQL</td>
+                    <td>AJAX</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>OOP</td>
+                </tr>
+                <tr>
+                    <td>BootStrap</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="projectsContainer">
+            <h2 class="sectionTitle">Projects</h2>
+            <p>Coming Soon</p>
+        </div>
+        <div class="contactContainer">
+            <h2 class="sectionTitle">Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input name="name" type="text">
+                <label for="email">Email:</label>
+                <input name="email" type="email">
+                <br>
+                <label for="message">Message:</label>
+                <textarea name="message" cols="43" rows="5"></textarea>
+                <br>
+                <input type="button" value="Submit">
+            </form>
+        </div>
+    </div>
 </body>
+<script src="https://kit.fontawesome.com/bc89daae38.js" crossorigin="anonymous"></script>
 </html>
